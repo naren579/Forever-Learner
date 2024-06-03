@@ -1,5 +1,6 @@
 import requests
 import streamlit as st
+st.title("SUMMARYZE")
 with st.sidebar:
 	API_TOKEN=st.text_input('Enter your huggingface api key here')
 	if st.button('Submit'):
