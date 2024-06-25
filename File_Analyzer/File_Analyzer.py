@@ -6,7 +6,7 @@ import numpy as np
 import re
 
 st.set_page_config(layout="wide")
-st.title("DOXSPLORE")
+st.title("DOXPLORE")
 with st.sidebar:
     openai_model = st.selectbox('Select the model',['gpt-4o','gpt-4-turbo','gpt-3.5-turbo'])
     API_KEY = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
