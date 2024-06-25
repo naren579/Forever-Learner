@@ -32,11 +32,11 @@ if dataset is not None:
         else:
             continue
 
-from langchain.chains import RetrievalQA
-from langchain.prompts import PromptTemplate
-from langchain.chat_models import ChatOpenAI
-import pprint
-import os
+# from langchain.chains import RetrievalQA
+# from langchain.prompts import PromptTemplate
+# from langchain.chat_models import ChatOpenAI
+# import pprint
+# import os
 
 
 ###Enivironment settings for openai API key and Vector Embeddings############
